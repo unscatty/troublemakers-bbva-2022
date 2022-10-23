@@ -14,7 +14,7 @@ ATM Easy Finder es una web app enfocada al tiempo y experiencia del usuario. En 
 - [Arquitectura](#Arquitectura)
 - [Screenshots](#Screenshots)
 - [Autores](#Autores)
-- [Quick start](#Quick-start)
+- [Instalación](#Instalación)
 
 # Video
 
@@ -75,9 +75,33 @@ ATM Easy Finder es una web app enfocada al tiempo y experiencia del usuario. En 
 - [@unscatty](https://github.com/unscatty) - Carlos Aguilera
 - Alma
 
-# Quick start
+# Instalación
 
+### 1. Moverse a nueva carpeta (Opcional)
+```bash
+mkdir troublemakers-bbva-2022
+```
+### 2. Moverse a la carpeta
+```bash
+cd troublemakers-bbva-2022
+```
+### 3. Clonar el repositorio
+```bash
+git clone https://github.com/unscatty/troublemakers-bbva-2022
+```
+### 4. Instalar pnpm
+```bash
+npm i -g pnpm
+```
 
+### 5. Instalar dependencias
+```bash
+pnpm install
+```
+### 6. Incia el servido
+```bash
+pnpm run dev
+```
 
 
 
