@@ -1,0 +1,156 @@
+@import './markdown.css';
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* html.dark {
+  background: #121212;
+  color-scheme: dark;
+} */
+
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar {
+  background: rgb(13, 148, 136);
+  opacity: 0.75;
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+}
+
+@media (min-width: 768px) {
+  .heightWithoutNavbar {
+    height: calc(100vh);
+  }
+}
+
+.scrollbarHidden::-webkit-scrollbar {
+  display: none;
+}
+
+select > option[value='Sugerencia'] {
+  background: rgba(115, 245, 136, 0.3);
+}
+
+select option[value='Sugerencia'] {
+  background: rgba(115, 245, 136, 0.3);
+}
+
+select option[value='Advertencia'] {
+  background: rgba(237, 243, 155, 0.3);
+}
+
+
+.bakcground {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10000000;
+  background: rgb(50, 128, 157);
+  background: radial-gradient(
+    circle,
+    rgba(50, 128, 157, 1) 0%,
+    rgba(17, 56, 106, 1) 100%
+  );
+  width: 100vw;
+  height: 100vh;
+  animation-name: backgroundA;
+  animation-delay: 3.5s;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+  outline: 1px solid transparent;
+}
+
+.bbvIntro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, -50%);
+  width: 60%;
+  animation-name: bbvIntro;
+  animation-delay: 1s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  transform-origin: 100% 50%;
+  opacity: 0;
+  outline: 1px solid transparent;
+  max-width: 300px;
+}
+
+.aIntro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 21.5%;
+  animation-name: aIntro;
+  animation-delay: 1s;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  max-width: 110px;
+  outline: 1px solid transparent;
+}
+
+@keyframes aIntro {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+  25% {
+  }
+  50% {
+  }
+  100% {
+    transform: translate(94%, -50%);
+  }
+}
+
+@keyframes bbvIntro {
+  0% {
+    opacity: 0;
+    transform: translate(50%, -50%);
+  }
+  25% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 0;
+  }
+  50% {
+    
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-60%, -50%);
+  }
+}
+
+
+@keyframes backgroundA {
+  0% {
+    opacity: 1;
+  }
+  25% {
+   
+  }
+  45% {
+
+  }
+  50% {
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    z-index: 0;
+  }
+}
