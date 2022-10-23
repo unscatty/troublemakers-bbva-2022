@@ -14,7 +14,7 @@ ATM Easy Finder es una web app enfocada al tiempo y experiencia del usuario. En 
 - [Arquitectura](#Arquitectura)
 - [Screenshots](#Screenshots)
 - [Autores](#Autores)
-- [Quick start](#Quick-start)
+- [Instalación](#Instalación)
 
 # Video
 
@@ -45,13 +45,63 @@ ATM Easy Finder es una web app enfocada al tiempo y experiencia del usuario. En 
 
 # Screenshots
 
+### Inicio
+![Arquitectura de proyecto](https://github.com/unscatty/troublemakers-bbva-2022/blob/main/presentacionAssets/ATM-Easy-Finder.png)
+
+### Responsive
+![Arquitectura de proyecto](https://github.com/unscatty/troublemakers-bbva-2022/blob/main/presentacionAssets/responsive.png)
+
+### Chatbot
+![Chatbot](https://github.com/unscatty/troublemakers-bbva-2022/blob/main/presentacionAssets/chatbot.png)
+
+### Info Cajero
+![Info Cajero](https://github.com/unscatty/troublemakers-bbva-2022/blob/main/presentacionAssets/infoCajero.png)
+
+### Info Cajero
+![Info Cajero](https://github.com/unscatty/troublemakers-bbva-2022/blob/main/presentacionAssets/infoCajero.png)
+
+### Ruta 
+![Ruta](https://github.com/unscatty/troublemakers-bbva-2022/blob/main/presentacionAssets/rutas.png)
+
+### Crear Alerta
+![Crear Alerta](https://github.com/unscatty/troublemakers-bbva-2022/blob/main/presentacionAssets/alerta.png)
+
+### Ver alertas
+![Ver alertas](https://github.com/unscatty/troublemakers-bbva-2022/blob/main/presentacionAssets/alertaCreada.png)
+
 # Autores
 
 - [@devleon00](https://www.github.com/devleon00) - Juan Pablo Muñiz 
+- [@unscatty](https://github.com/unscatty) - Carlos Aguilera
+- Alma
 
-# Quick start
+# Instalación
 
+### 1. Moverse a nueva carpeta (Opcional)
+```bash
+mkdir troublemakers-bbva-2022
+```
+### 2. Moverse a la carpeta
+```bash
+cd troublemakers-bbva-2022
+```
+### 3. Clonar el repositorio
+```bash
+git clone https://github.com/unscatty/troublemakers-bbva-2022
+```
+### 4. Instalar pnpm
+```bash
+npm i -g pnpm
+```
 
+### 5. Instalar dependencias
+```bash
+pnpm install
+```
+### 6. Incia el servido
+```bash
+pnpm run dev
+```
 
 
 
