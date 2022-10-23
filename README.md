@@ -45,9 +45,35 @@ ATM Easy Finder es una web app enfocada al tiempo y experiencia del usuario. En 
 
 # Screenshots
 
+### Inicio
+![Arquitectura de proyecto](https://github.com/unscatty/troublemakers-bbva-2022/blob/main/presentacionAssets/ATM-Easy-Finder.png)
+
+### Responsive
+![Arquitectura de proyecto](https://github.com/unscatty/troublemakers-bbva-2022/blob/main/presentacionAssets/responsive.png)
+
+### Chatbot
+![Chatbot](https://github.com/unscatty/troublemakers-bbva-2022/blob/main/presentacionAssets/chatbot.png)
+
+### Info Cajero
+![Info Cajero](https://github.com/unscatty/troublemakers-bbva-2022/blob/main/presentacionAssets/infoCajero.png)
+
+### Info Cajero
+![Info Cajero](https://github.com/unscatty/troublemakers-bbva-2022/blob/main/presentacionAssets/infoCajero.png)
+
+### Ruta 
+![Ruta](https://github.com/unscatty/troublemakers-bbva-2022/blob/main/presentacionAssets/rutas.png)
+
+### Crear Alerta
+![Crear Alerta](https://github.com/unscatty/troublemakers-bbva-2022/blob/main/presentacionAssets/alerta.png)
+
+### Ver alertas
+![Ver alertas](https://github.com/unscatty/troublemakers-bbva-2022/blob/main/presentacionAssets/alertaCreada.png)
+
 # Autores
 
 - [@devleon00](https://www.github.com/devleon00) - Juan Pablo Muñiz 
+- [@unscatty](https://github.com/unscatty) - Carlos Aguilera
+- Alma
 
 # Quick start
 
