@@ -18,6 +18,8 @@ ATM Easy Finder es una web app enfocada al tiempo y experiencia del usuario. En 
 
 # Video
 
+[![Video de pitch](https://github.com/unscatty/troublemakers-bbva-2022/blob/main/presentacionAssets/BBVAAnimation.png)](video)
+
 # Servicios
 
 - :atm: Ver cajeros cercanos y como llegar
@@ -57,16 +59,13 @@ ATM Easy Finder es una web app enfocada al tiempo y experiencia del usuario. En 
 ### Info Cajero
 ![Info Cajero](https://github.com/unscatty/troublemakers-bbva-2022/blob/main/presentacionAssets/infoCajero.png)
 
-### Info Cajero
-![Info Cajero](https://github.com/unscatty/troublemakers-bbva-2022/blob/main/presentacionAssets/infoCajero.png)
-
 ### Ruta 
 ![Ruta](https://github.com/unscatty/troublemakers-bbva-2022/blob/main/presentacionAssets/rutas.png)
 
-### Crear Alerta
+### Crear Alerta en tiempo real
 ![Crear Alerta](https://github.com/unscatty/troublemakers-bbva-2022/blob/main/presentacionAssets/alerta.png)
 
-### Ver alertas
+### Ver alertas en tiempo real
 ![Ver alertas](https://github.com/unscatty/troublemakers-bbva-2022/blob/main/presentacionAssets/alertaCreada.png)
 
 # Autores
