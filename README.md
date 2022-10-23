@@ -74,7 +74,7 @@ ATM Easy Finder es una web app progresiva enfocada al tiempo y experiencia del u
 
 # Video
 
-[![Video de pitch](https://github.com/unscatty/troublemakers-bbva-2022/blob/main/presentacionAssets/BBVAAnimation.png)](video)
+[![Video de pitch](https://github.com/unscatty/troublemakers-bbva-2022/blob/main/presentacionAssets/BBVAAnimation.png)](https://clipchamp.com/watch/l1OQum6vvr5)
 
 # Servicios
 
