@@ -6,6 +6,8 @@ El sitio es accesible desde https://troublemakers-bbva-2022.web.app
 
 Para poder obtener los cajeros cercanos en la pantalla principal, se deben otorgar permisos de ubicación al momento de entrar
 
+![](presentacionAssets/ubicación.png)
+
 Las alertas se muestran por cajero. Para poder comprobar la funcionalidad se debe dar click en alguna ubicación de cajero y se mostrarán las alertas. Otro usuario (o desde otro navegador) deberá crear una alerta **en el mismo cajero** para que se refleje el cambio en tiempo real
 
 #### ¿Cómo instalar la app?
