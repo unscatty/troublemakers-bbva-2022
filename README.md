@@ -3,6 +3,7 @@
 # Notas para evaluadores
 
 El sitio es accesible desde https://troublemakers-bbva-2022.web.app
+
 Para poder obtener los cajeros cercanos en la pantalla principal, se deben otorgar permisos de ubicación al momento de entrar
 
 Las alertas se muestran por cajero. Para poder comprobar la funcionalidad se debe dar click en alguna ubicación de cajero y se mostrarán las alertas. Otro usuario (o desde otro navegador) deberá crear una alerta **en el mismo cajero** para que se refleje el cambio en tiempo real
@@ -29,7 +30,10 @@ Y ya puede usarse como una app más
 #### Chatbot
 
 Para poder usar el chabot sin problemas, se requieren los permisos de ubicación.
+
 Para usar el modo *"conducción"* se requieren los permisos del micrófono
+
+![](presentacionAssets/chatbotMicrofono.png)
 
 # ATM Easy Finder
 
@@ -63,7 +67,8 @@ ATM Easy Finder es una web app progresiva enfocada al tiempo y experiencia del u
     - [3. Clonar el repositorio](#3-clonar-el-repositorio)
     - [4. Instalar pnpm](#4-instalar-pnpm)
     - [5. Instalar dependencias](#5-instalar-dependencias)
-    - [6. Incia el servidor en modo desarrollo](#6-incia-el-servidor-en-modo-desarrollo)
+    - [6. Agregar variables de entorno](#6-agregar-variables-de-entorno)
+    - [7. Incia el servidor en modo desarrollo](#7-incia-el-servidor-en-modo-desarrollo)
 
 # Video
 
@@ -121,7 +126,7 @@ ATM Easy Finder es una web app progresiva enfocada al tiempo y experiencia del u
 
 - [@devleon00](https://www.github.com/devleon00) - Juan Pablo Muñiz 
 - [@unscatty](https://github.com/unscatty) - Carlos Aguilera
-- Alma
+- Alma Ramírez
 
 # Instalación
 
@@ -146,7 +151,33 @@ npm i -g pnpm
 ```bash
 pnpm install
 ```
-### 6. Incia el servidor en modo desarrollo
+
+### 6. Agregar variables de entorno
+Crear un archivo `.env.local` y rellenar los siguientes campos
+
+```
+VITE_GOOGLE_MAPS_API_KEY=''
+
+# RecordRTC recorder
+VITE_RECORDER_MIME_TYPE='audio/webm'
+VITE_RECORDER_SAMPLE_RATE=44100
+VITE_RECORDER_DESIRED_SAMPLE_RATE=16000
+VITE_RECORDER_AUDIO_CHANNELS=1
+
+# Server
+VITE_SERVER_ENDPOINT=''
+VITE_SERVER_SOCKET_ENDPOINT=''
+
+# Firebase config
+VITE_FIREBASE_API_KEY=''
+VITE_FIREBASE_AUTH_DOMAIN=''
+VITE_FIREBASE_PROJECT_ID=''
+VITE_FIREBASE_STORAGE_BUCKET=''
+VITE_FIREBASE_MESSAGING_SENDER_ID=''
+VITE_FIREBASE_APP_ID=''
+```
+
+### 7. Incia el servidor en modo desarrollo
 ```bash
 pnpm run dev
 ```
